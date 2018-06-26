@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head><title>Add Products</title></head>
+<body>
+<br>
+<h3><a href='main.php' style='color:blue'>Home</a></h3>
+<br>
+<br>
+<form action='../admin/add.php' method='POST'>
+<fieldset>
+<legend>Add Products</legend>
+Product id<span style='color:red'>*</span>:<br>
+<input type='number' name='product_id' size='40' required>
+<br>
+Product name<span style='color:red'>*</span>:<br>
+<input type='text' name='product_name' size='40' required>
+<br>
+Manufacturar / Publisher / Producer<span style='color:red'>*</span>:<br>
+<input type='text' name='manufac' size='40' required>
+<br>
+Quantity<span style='color:red'>*</span>:<br>
+<input type='number' name='qty' size='40' required>
+<br>
+Price<span style='color:red'>*</span>:<br>
+<input type='number' name='price' size='40' required>
+<br>
+<br>
+<input type='submit' value='Add Product'>
+<br>
+</fieldset>
+</form>
+</body>
+</html>

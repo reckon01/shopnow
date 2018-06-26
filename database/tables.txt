@@ -1,0 +1,89 @@
+
+
+CREATE TABLE admin
+(
+username VARCHAR(96) NOT NULL,
+password VARCHAR(96) NOT NULL
+
+);
+
+CREATE TABLE customer
+(
+username VARCHAR(96),
+password VARCHAR(255),
+name VARCHAR(255),
+address VARCHAR(255),
+pin INT(25),
+mobileno INT(25),
+email VARCHAR(96) UNIQUE,
+state VARCHAR(96)
+);
+
+
+CREATE TABLE product
+(product_id INT(255) AUTO_INCREMENT,
+product_name VARCHAR(96),
+price INT(96),
+quantity INT(96),
+manufacturar VARCHAR(96),
+image VARCHAR(255),
+cat_id INT(96)
+);
+
+
+CREATE TABLE category
+(
+cat_id INT(96),
+cat_name VARCHAR(96) UNIQUE,
+product_qty INT(96),
+PRIMARY KEY(cat_id)
+);
+
+CREATE TABLE cart
+(
+product_id INT(255),
+username VARCHAR(96),
+cat_id INT(96),
+sub_cat_id INT(96),
+qty INT(96),
+price VARCHAR(96),
+manufacturar VARCHAR(96),
+product_name VARCHAR(96),
+);
+
+CREATE TABLE order
+(
+order_id INT(96) AUTO_INCREMENT,
+product_id INT(96),
+username VARCHAR(96),
+cat_id INT(96),
+order_date date,
+address VARCHAR(96),
+pin INT(96),
+landmark VARCHAR(96),
+mobileno INT(96),
+email VARCHAR(96)
+);
+
+
+CREATE TABLE feedback
+(
+slno INT(96) AUTO_INCREMENT,
+email VARCHAR(96),
+messg VARCHAR(96)
+);
+
+CREATE TABLE return
+(
+return_id INT(96) AUTO_INCREMENT,
+order_id INT(96),
+email VARCHAR(96),
+name VARCHAR(96),
+mobileno INT(96),
+order_date date,
+product_name VARCHAR(96),
+qty_return INT(96),
+reason_for_ret VARCHAR(96),
+opened VARCHAR(96)
+);
+

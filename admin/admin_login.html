@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>Admin Login</title></head>
+<body>
+<h3><a href='../index.php' style='color:blue;'>Back to Home</a></h3><br><br>
+<i><span style="color:blue"><span style="color:red">Note:</span> If you leave admin section after login, you will be automatically logged out.</span></i>
+<br><br>
+<form action='../admin/login.php' method='POST'>
+<fieldset>
+<legend>Please login to continue</legend>
+Username<span style='color:red'>*</span>:<br>
+<input type='text' name='username' size='40' required>
+<br>
+<br>
+Password:<span style='color:red'>*</span>:<br>
+<input type='password' name='password' size='40' required>
+<br>
+<br>
+<input type='submit' value='Login'>
+<br>
+</fieldset>
+</form>
+</body>
+</html>

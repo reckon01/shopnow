@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+#footer {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	background-color: #FFFFFF;
+	font-weight: normal;
+	border-width: 0px;
+	border-radius: 0px;
+}
+.navbar.navbar-default{
+margin-top: 20px;
+
+}
+#category {
+	border-width: 0px;
+	border-radius: 0px;
+	background-color: #FFFFFF;
+}
+
+.myabout {
+	margin-left: 30px;
+}

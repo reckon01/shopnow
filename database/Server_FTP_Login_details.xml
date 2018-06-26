@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><FileZilla3> 
+    <Servers> 
+        <Server> 
+		 <awardspace_login>skmdmusha1@gmail.com</awardspace_login>
+		 <password>9093662861awardspace</password>
+		 
+            <Host>f19-preview.awardspace.net</Host> 
+            <Port>21</Port> 
+            <Protocol>ftp</Protocol> 
+            <Type>0</Type> 
+            <User>2592218_sohelislammollick</User>
+            <Logontype>2</Logontype> 
+            <TimezoneOffset>0</TimezoneOffset> 
+            <PasvMode>MODE_DEFAULT</PasvMode> 
+            <MaximumMultipleConnections>0</MaximumMultipleConnections> 
+            <EncodingType>Auto</EncodingType> 
+            <BypassProxy>0</BypassProxy> 
+            <Name>2592218_sohelislammollick@f19-preview.awardspace.net</Name>
+             
+             <db_host>fdb19.awardspace.net</db_host>			 
+			<database>2592218_myshoppingcart</database>
+			<dbuser>2592218_myshoppingcart</dbuser>
+			<database_password>myshoppingcart123</database_password>
+            <Comments/> 
+            <LocalDir/> 
+            <RemoteDir/> 
+            <SyncBrowsing>0</SyncBrowsing>
+            2592218_sohelislammollick@f19-preview.awardspace.net        </Server> 
+    </Servers> 
+</FileZilla3>
